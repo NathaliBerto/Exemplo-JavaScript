@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo JavaScript - DOM</title>
+    <style>
+        .Retangulo{
+            width: 400px;
+            height: 250px;
+            border: 2px solid black;
+            background-color: bisque;
+        }
+        .btn{
+            margin-top: 16px;
+            padding: 8px;
+            background-color: #7373e770;
+        }
+        .btn:active{
+            background-color: cornflowerblue;
+        }
+        .Muda-Cor{
+            background-color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Titulo1">Este é o texto Original</h1>
+
+    <p class="Paragrafo">Primeiro Parágrafo</p>
+    <p class="Paragrafo">Segundo Parágrafo</p>
+    <p class="Paragrafo">Terceiro Parágrafo</p>
+   <hr>
+
+
+    <div class="Retangulo"></div>
+    <button class="btn">Muda Classe</button>
+    <hr>
+
+    <ul class="Lista"></ul>
+    <input type="text" id="Input-Texto">
+    <button class="btn" id="btn-Adiciona">Adicionar Linha</button>
+
+    <ul class="Linhas">
+        <li class="Linha-Apagar">Linha 1</li>
+        <li class="Linha-Apagar">Linha 2</li>
+        <li class="Linha-Apagar">Linha 3</li>
+        <li class="Linha-Apagar">Linha 4</li>
+        <li class="Linha-Apagar">Linha 5</li>
+        <li class="Linha-Apagar">Linha 6</li>
+    </ul>
+    <hr>
+
+    <ul class="Filtra-Lista">
+        <li class="Filtra-Linha">JavaScript</li>
+        <li class="Filtra-Linha">Java</li>
+        <li class="Filtra-Linha">HTML</li>
+        <li class="Filtra-Linha">CSS</li>
+        <li class="Filtra-Linha">UX-UI</li>
+        <li class="Filtra-Linha">JavaScript</li>
+        <li class="Filtra-Linha">HTML</li>
+        <li class="Filtra-Linha">CSS</li>
+        <li class="Filtra-Linha">UX-UI</li>
+        <li class="Filtra-Linha">Java</li>
+        <li class="Filtra-Linha">CSS</li>
+        <li class="Filtra-Linha">HTML</li>
+        <li class="Filtra-Linha">JavaScript</li>
+    </ul>
+    
+    <Input type="text" id="Input-Filtra">
+    <hr>
+    
+
+    <script src="MudaTexto.js"></script>
+    <script src="MudaCSS.js"></script>
+    <script src="MudaClasse.js"></script>
+    <script src="AdicionaLinha.js"></script>
+    <script src="ApagaLinha.js"></script>
+    <script src="FiltrarLista.js"></script>
+
+</body>
+</html>
